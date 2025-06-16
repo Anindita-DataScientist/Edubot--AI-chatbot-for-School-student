@@ -106,7 +106,7 @@ faiss.write_index(index, VECTOR_DB_PATH)
 print("✅ Embeddings stored in FAISS vector database!")
 
 # ------------------- 7️⃣ Gemini-based QA System -------------------
-genai.configure(api_key="AIzaSyCi4B2bgfvZSbvwEz0jnXgGnEqlzgQ77RE")
+genai.configure(api_key="YOUR API KEY")
 model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 with open(PROCESSED_TEXT_FILE, "r", encoding="utf-8") as f:
