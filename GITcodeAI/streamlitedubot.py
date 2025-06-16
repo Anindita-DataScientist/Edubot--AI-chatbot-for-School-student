@@ -30,7 +30,7 @@ def load_resources():
 nlp, processed_text, embeddings, index, chapter_names = load_resources()
 
 # ------------------- Gemini Setup -------------------
-genai.configure(api_key="AIzaSyCi4B2bgfvZSbvwEz0jnXgGnEqlzgQ77RE")
+genai.configure(api_key="YOUR API KEY")
 model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # ------------------- Embedding & Search -------------------
