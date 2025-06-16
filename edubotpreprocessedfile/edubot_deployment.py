@@ -108,7 +108,7 @@ st.markdown("<h1 style='text-align: center;'>AI-Powered Class 10 Science Chatbot
 nlp = spacy.load("en_core_web_lg")
 
 # ------------------- Gemini Setup -------------------
-genai.configure("AIzaSyCi4B2bgfvZSbvwEz0jnXgGnEqlzgQ77RE")
+genai.configure("YOUR API KEY")
 model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # ------------------- Load Data -------------------
